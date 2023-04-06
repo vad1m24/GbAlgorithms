@@ -1,4 +1,4 @@
-package lesson2;
+package task1;
 
 public class HeapSort {
 
