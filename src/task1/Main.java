@@ -6,7 +6,9 @@ public class Main {
     public static void main(String[] args) {
 
         HeapSort hp = new HeapSort();
-        System.out.println(Arrays.toString(hp.sort(hp.makingArray(20,20))));
+        int[] arr = hp.makingArray(10,100);
+        System.out.println(Arrays.toString(arr));
+        System.out.println(Arrays.toString(hp.sort(arr)));
 
     }
 }
